@@ -32,3 +32,25 @@ elif scores >= 70:
     print("c")
 else :
     print("d")
+
+i = 1
+s = 0
+while i <= 1000 :
+    s = s + (-1)**(i-1)/(2*i-1)
+    i += 1
+print(s)
+pi = 4 * s
+print(pi)
+
+i = 1
+while i <=100:
+    print(i, end = " ")
+    i += 1
+    
+else:
+    print("WHU")
+# break & continue DIFFERENCE
+
+range(1,5,2)
+range(1,5)
+range(5)
